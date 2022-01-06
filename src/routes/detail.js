@@ -154,7 +154,6 @@ export default () => {
     variables: { id: parseInt(id) }
   });
 
-  console.log(data);
 
   return (
     <Container>
@@ -172,7 +171,7 @@ export default () => {
             </div>
             <div className='title'>
               {data?.movie?.title}
-              {data?.movie?.isLiked ? <FavoriteIcon ></FavoriteIcon> : <FavoriteBorderIcon ></FavoriteBorderIcon>}
+              {/* {data?.movie?.isLiked ? <FavoriteIcon ></FavoriteIcon> : <FavoriteBorderIcon ></FavoriteBorderIcon>} */}
             </div>
 
             {data?.movie?.language} · <StarTwoToneIcon className='star' />{data?.movie?.rating}

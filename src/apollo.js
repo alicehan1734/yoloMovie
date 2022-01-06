@@ -10,7 +10,6 @@ const client = new ApolloClient({
     },
     Mutation: {
       toggleLikeMovie: (_, { id, isLiked }, { cache }) => {
-        console.log(isLiked);
         const myMovie = {
           __typename: 'Movie',
           id: `${id}`,

@@ -21,7 +21,7 @@ const Movie = ({ id, url, openModal, description_intro, title, isLiked }) => {
     <Con>
       <img src={url} onClick={() => openModal(id, url, title, description_intro)} />
 
-      {isLiked ? <FavoriteIcon onClick={likeMovie}>like</FavoriteIcon> : <FavoriteBorderIcon onClick={likeMovie}>unlike</FavoriteBorderIcon>}
+      {/* {isLiked ? <FavoriteIcon onClick={likeMovie}>like</FavoriteIcon> : <FavoriteBorderIcon onClick={likeMovie}>unlike</FavoriteBorderIcon>} */}
     </Con>
   );
 };

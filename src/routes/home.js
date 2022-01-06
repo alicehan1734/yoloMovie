@@ -34,7 +34,6 @@ const Home = () => {
   const [modal, setModal] = useState(null);
 
   const openModal = (id, url, title, description_intro) => {
-    console.log(id);
     setIsOpen(true)
     setModal(
       <div>
