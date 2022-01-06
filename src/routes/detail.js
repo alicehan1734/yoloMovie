@@ -31,6 +31,7 @@ const GET_MOVIE = gql`
 
 const Container = styled.div`
   height: 100vh;
+  min-height: 100vh;
   background-image: linear-gradient(-45deg, rgb(253, 223, 70), rgb(23, 213, 209));
   width: 100%;
   display: flex;

@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/yoloMovie",
   "dependencies": {
     "@apollo/client": "^3.5.6",
     "@apollo/react-hooks": "^4.0.0",
