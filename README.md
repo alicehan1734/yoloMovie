@@ -21,4 +21,4 @@
 - React
 - Javascript
 - NodeJs
-- GraphQL
+- GraphQL (Movie Api : https://github.com/alicehan1734/movieApi_GraphQL)
