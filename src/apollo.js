@@ -2,7 +2,7 @@ import { ApolloClient, InMemoryCache } from "@apollo/client";
 
 
 const client = new ApolloClient({
-  uri: "https://movieql2.vercel.app/",
+  uri: "https://movie-api-graph-ql-meyi4.ondigitalocean.app/",
   cache: new InMemoryCache(),
   resolvers: {
     Movie: {
