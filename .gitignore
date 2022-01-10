@@ -24,3 +24,5 @@ yarn-error.log*
 
 #api
 /src/apollo.js
+
+.env

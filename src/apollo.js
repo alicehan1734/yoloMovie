@@ -2,7 +2,7 @@ import { ApolloClient, InMemoryCache } from "@apollo/client";
 
 
 const client = new ApolloClient({
-  uri: "https://movie-api-graph-ql-meyi4.ondigitalocean.app/",
+  uri: process.env.REACT_APP_URI,
   cache: new InMemoryCache(),
   resolvers: {
     Movie: {
